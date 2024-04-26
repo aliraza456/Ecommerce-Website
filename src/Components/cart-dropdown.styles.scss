@@ -1,0 +1,47 @@
+.cart-dropdown-container {
+  position: absolute;
+  width: 300px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  height: 340px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid black;
+  background-color: white;
+  top: 90px;
+  right: 40px;
+  z-index: 5;
+
+  .empty-message {
+    font-size: 18px;
+    margin: 50px auto;
+  }
+
+  .cart-items {
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+  }
+
+  button {
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    font-size: smaller;
+    color: rgb(255, 255, 255);
+    background: black;
+    border: none;
+    font-family: 'Open Sans Condensed', sans-serif;
+    cursor: pointer;
+
+  }
+  button:hover {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    border: 1px solid black;
+    cursor: pointer;
+
+  }
+}
